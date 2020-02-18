@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "homepage": "http://eaglesdgreat.github.io/MockShopApp",
-=======
-  "homepage": "http://eaglesdgreat.github.io/my-app",
->>>>>>> created react app commit
   "name": "mock-shop",
   "version": "0.1.0",
   "private": true,
