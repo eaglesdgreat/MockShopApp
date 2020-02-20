@@ -21,7 +21,7 @@ const initState = {
     total: 0
 
 }
-const cartReducer= (state = initState,action)=>{
+export const cartReducer= (state = initState,action)=>{
    
     //INSIDE SHOP COMPONENT
     if(action.type === cartActionConstants.ADD_TO_CART){

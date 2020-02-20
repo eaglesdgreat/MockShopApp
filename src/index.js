@@ -6,10 +6,10 @@ import 'font-awesome/css/font-awesome.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import cartReducer from './components/_reducers/cartReducer';
+import rootReducer from './components/_reducers/rootReducers';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
-const store = createStore(cartReducer);
+const store = createStore(rootReducer);
 
 ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));

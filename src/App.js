@@ -8,7 +8,7 @@ import LoginPage from './components/LoginPage.jsx'
 import alertActions from './components/_actions/alertActions'
 import HomePage from './components/HomePage.jsx'
 import RegisterPage from './components/RegisterPage.jsx'
-import {history} from '/components/_helpers/history'
+import {history} from './components/_helpers/history'
 import PrivateRoute from './components/PrivateRoute'
 
 class App extends Component {
